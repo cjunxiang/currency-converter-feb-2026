@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: 30px;
+    column-gap: 10px;
+    align-items: center;
+    /* font-size: 1.1rem; */
+}
+
+.from-select,
+.to-select {
+    width: auto;
+    height: 60px;
+    background-color: #e9c46a;
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #060619;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #060619;
+}
+
+.converter-input {
+    font-size: 1.25rem;
+    padding-left: 10px;
+    border: 1px solid gray;
+    height: 50px
+}
+
+.converter-result {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.equal-sign {
+    font-size: 1.5rem;
+}
